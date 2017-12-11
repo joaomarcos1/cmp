@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\res\\merged\\debug\\values-ja\\values-ja.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 180,
+                    "endOffset": 281
+                },
+                "from": {
+                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.8.0\\res\\values-ja\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 180,
+                        "endOffset": 465
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/intermediates/res/merged/debug/values-ja/values-ja.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 180,
+                    "endOffset": 281
+                },
+                "from": {
+                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/res/values-ja/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 180,
+                        "endOffset": 465
+                    }
+                }
+            }
+        ]
+    }
+]

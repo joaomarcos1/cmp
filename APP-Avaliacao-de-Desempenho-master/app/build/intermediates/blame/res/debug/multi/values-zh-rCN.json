@@ -1,0 +1,50 @@
+[
+    {
+        "outputFile": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/intermediates/res/merged/debug/values-zh-rCN/values-zh-rCN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 157,
+                    "endOffset": 258
+                },
+                "from": {
+                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/res/values-zh-rCN/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 289,
+                        "endColumn": 157,
+                        "endOffset": 446
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\res\\merged\\debug\\values-zh-rCN\\values-zh-rCN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 157,
+                    "endOffset": 258
+                },
+                "from": {
+                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.8.0\\res\\values-zh-rCN\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 289,
+                        "endColumn": 157,
+                        "endOffset": 446
+                    }
+                }
+            }
+        ]
+    }
+]

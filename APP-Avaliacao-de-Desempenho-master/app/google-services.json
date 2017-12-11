@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "19796541380",
+    "firebase_url": "https://rbchat-fe945.firebaseio.com",
+    "project_id": "rbchat-fe945",
+    "storage_bucket": "rbchat-fe945.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19796541380:android:50bd40255efad7df",
+        "android_client_info": {
+          "package_name": "nupasd.research.appcompare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19796541380-q96lirm4edubukrkgme961o5p2s5sf5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6v86Zh7OBd8JTdw2i6VRwbxXyOZCP29c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

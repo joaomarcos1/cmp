@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\res\\merged\\release\\values-bg\\values-bg.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 196,
+                    "endOffset": 297
+                },
+                "from": {
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.8.0\\res\\values-bg\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 196,
+                        "endOffset": 481
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="nupasd.research.appcompare.ui.advanced_Parameters">-->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/textView16"
+            android:layout_marginTop="13dp"
+            android:text="Choose the number of observations for the test:"
+            android:textSize="10pt"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/edt_ADVANCED_Number_Of_Observations"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Choose the time for each Observation (in seconds):"
+            android:id="@+id/textView17"
+            android:layout_marginTop="13dp"
+            android:textSize="10pt"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/edt_ADVANCED_Time_Cada_Observacao"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Choose the waiting time to start the Test:"
+            android:layout_marginTop="13dp"
+            android:textSize="10pt"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:id="@+id/textView4" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:id="@+id/edt_ADVANCED_Tempo_Antes_do_Teste" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Choose the Elements to check:"
+            android:id="@+id/textView18"
+            android:layout_marginTop="13dp"
+            android:textSize="10pt"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup_Elements_To_Check"
+            android:layout_marginTop="5dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CPU"
+                android:id="@+id/chk_ADVANCED_CPU"
+                android:checked="false"
+                android:layout_marginLeft="15dp"
+                android:textSize="7pt" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3G"
+                android:id="@+id/chk_ADVANCED_3G"
+                android:checked="false"
+                android:layout_marginLeft="15dp"
+                android:textSize="7pt" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WiFi"
+                android:id="@+id/chk_ADVANCED_WiFi"
+                android:checked="false"
+                android:layout_marginLeft="15dp"
+                android:textSize="7pt" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DISPLAY"
+                android:id="@+id/chk_ADVANCED_Display"
+                android:checked="false"
+                android:layout_marginLeft="15dp"
+                android:textSize="7pt" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Choose the Trust Level:"
+            android:id="@+id/textView19"
+            android:layout_above="@+id/radioGroup_Nivel_Confianca"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="30dp"
+            android:textSize="10pt"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/radioGroup_ADVANCED_TRUST_LEVEL"
+            android:layout_above="@+id/btn_confirmarParametros"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="52dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="4dp">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="48dp"
+                android:text="95 %"
+                android:id="@+id/radioButton_ADVANCED_Trust_Level_95"
+                android:layout_alignBottom="@+id/radioGroup_Nivel_Confianca"
+                android:layout_alignRight="@+id/btn_Voltar_Definicao_Parametros"
+                android:layout_marginRight="58dp"
+                android:checked="false"
+                android:textSize="8pt" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="99 %"
+                android:id="@+id/radioButton_ADVANCED_Trust_Level_99"
+                android:checked="false"
+                android:textSize="8pt" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_blue"
+            android:text="CONFIRM"
+            android:textSize="9pt"
+            android:layout_weight="3.45"
+            android:id="@+id/btn_CONFIRMAR_Tela_Parametros_Avancados" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="BACK"
+            android:id="@+id/btn_VOLTAR_Tela_Parametros_Avancados"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_blue"
+            android:textSize="9pt"
+            android:layout_marginBottom="5dp" />
+    </LinearLayout>
+
+</ScrollView>
+
+

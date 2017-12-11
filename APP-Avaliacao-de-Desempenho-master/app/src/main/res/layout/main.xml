@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+    >
+
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="fill_parent"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:background="@drawable/placa5"
+        android:weightSum="1">
+
+        <!--<TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="AppCompare"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#509999"
+            android:textSize="25pt"
+
+            android:typeface="normal" />-->
+
+        <Button
+            android:id="@+id/servicestartbutton"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@drawable/button_blue"
+            android:drawableRight="@drawable/iconbutplay"
+            android:text="Perform Test"
+            android:textSize="10pt"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/help"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_blue"
+            android:drawableRight="@drawable/iconbut"
+            android:text="Help"
+            android:textSize="10pt"
+            android:typeface="normal" />
+
+        <!--<Button
+            android:id="@+id/sysviewerbutton"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/button_blue"
+            android:drawableRight="@drawable/iconbutabout"
+            android:text="System Information"
+            android:textSize="10pt"
+            android:typeface="normal" />-->
+
+        <!--<Button
+            androidlayout_width="301dp"
+            android:layout_height="100dp"
+            android:textSize="9pt"
+            android:text="HELP / INSTRUCTIONS"
+            android:drawableRight="@drawable/x"
+            android:id="@+id/btn_help"
+            android:background="@drawable/button_blue"
+            android:layout_gravity="center_horizontal" />-->
+
+        <Button
+            android:layout_width="301dp"
+            android:layout_height="100dp"
+            android:textSize="9pt"
+            android:text="Quit Application"
+            android:drawableRight="@drawable/x"
+            android:id="@+id/btn_encerrar_Aplicacao"
+            android:background="@drawable/button_blue"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

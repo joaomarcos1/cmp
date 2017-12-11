@@ -1,0 +1,26 @@
+[
+    {
+        "outputFile": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\res\\merged\\release\\values-ko\\values-ko.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 179,
+                    "endOffset": 280
+                },
+                "from": {
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.8.0\\res\\values-ko\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 179,
+                        "endOffset": 464
+                    }
+                }
+            }
+        ]
+    }
+]

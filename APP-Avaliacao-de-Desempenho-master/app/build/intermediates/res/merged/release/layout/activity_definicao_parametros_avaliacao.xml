@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="nupasd.research.appcompare.ui.definicao_parametros_avaliacao">
+
+    <!--<ListView
+         android:layout_width="match_parent"
+         android:layout_height="fill_parent"
+         android:id="@+id/list_Quantidade_Observacoes_Avaliacao"
+         android:layout_alignParentLeft="true"
+        android:choiceMode="multipleChoice"
+         android:layout_below="@+id/textView6"
+         android:layout_marginTop="3dp"
+        android:layout_above="@+id/edt_Quantidade_Observacoes_Parametros_Avaliacao" />-->
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CONFIRM"
+        android:background="@drawable/button_blue"
+        android:id="@+id/btn_confirmarParametros"
+        android:textSize="8pt"
+        android:layout_above="@+id/btn_Voltar_Definicao_Parametros"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Choose the number of observations for the test:"
+        android:id="@+id/textView6"
+        android:textSize="10pt"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK"
+        android:background="@drawable/button_blue"
+        android:id="@+id/btn_Voltar_Definicao_Parametros"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/chk_SalvarDadosEmLOG_TelaSelecaoDeAPPS"
+        android:textSize="7pt" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="SAVE LOG DATA"
+        android:id="@+id/chk_SalvarDadosEmLOG_TelaSelecaoDeAPPS"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/btn_confirmarParametros"
+        android:checked="false" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:id="@+id/radioGroup_Nivel_Confianca"
+        android:layout_above="@+id/btn_confirmarParametros"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="52dp"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="95 %"
+            android:id="@+id/radioButton_Nivel_Confianca_95"
+            android:layout_alignBottom="@+id/radioGroup_Nivel_Confianca"
+            android:layout_alignRight="@+id/btn_Voltar_Definicao_Parametros"
+            android:layout_marginRight="58dp"
+            android:checked="false"
+            android:textSize="8pt" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="99 %"
+            android:id="@+id/radioButton_Nivel_Confianca_99"
+            android:checked="false"
+            android:textSize="8pt" />
+
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/edt_Quantidade_Observacoes_Parametros_Avaliacao"
+        android:inputType="number"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/textView6"
+        android:layout_marginTop="15dp"
+        android:textSize="12pt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Choose the Trust Level:"
+        android:id="@+id/txt_CHOOSE_TRUST_LEVEL"
+        android:layout_above="@+id/radioGroup_Nivel_Confianca"
+        android:layout_alignParentLeft="true"
+        android:textSize="10pt" />
+
+
+    <!-- <EditText
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:inputType="number"
+         android:ems="10"
+         android:id="@+id/edt_Quantidade_Observacoes"
+         android:layout_below="@+id/textView6"
+         android:layout_alignParentLeft="true"
+         android:layout_alignRight="@+id/textView6"
+         android:layout_marginTop="10dp" />-->
+
+
+</RelativeLayout>
+

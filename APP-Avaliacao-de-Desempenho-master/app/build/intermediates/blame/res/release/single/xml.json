@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\res\\merged\\release\\xml\\widget_info.xml",
+        "source": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\xml\\widget_info.xml"
+    },
+    {
+        "merged": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\res\\merged\\release\\xml\\preferences.xml",
+        "source": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\xml\\preferences.xml"
+    },
+    {
+        "merged": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\res\\merged\\release\\xml\\viewer_preferences.xml",
+        "source": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\xml\\viewer_preferences.xml"
+    }
+]

@@ -1,0 +1,40 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 10
+    buildToolsVersion '23.0.3'
+    defaultConfig {
+        applicationId 'nupasd.research.appcompare'
+        minSdkVersion 10
+        targetSdkVersion 23
+
+        ndk {
+            moduleName "bindings"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+dependencies {
+    compile files('libs/achartengine-1.0.0.jar')
+    compile files('libs/commons-math3-3.6.1.jar')
+    compile project(path: ':GraphView-master')
+    compile files('libs/mpandroidchartlibrary-2-2-4.jar')
+    compile files('libs/apache-mime4j-0.6.jar')
+    compile files('libs/httpmime-4.1.1.jar')
+    compile files('libs/itextg-5.5.8.jar')
+    //compile 'com.firebase:firebase-client-android:2.3.1'
+    //database
+    //crash reporting
+    compile 'com.google.firebase:firebase-core:9.8.0'
+    compile 'com.google.firebase:firebase-database:9.8.0'
+    compile 'com.google.firebase:firebase-crash:9.8.0'
+
+}
+
+apply plugin: 'com.google.gms.google-services'

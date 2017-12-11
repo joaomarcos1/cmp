@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/intermediates/res/merged/debug/values/values.xml",
+        "outputFile": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -12,15 +12,7 @@
                     "endOffset": 315
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/arrays.xml",
-                    "position": {
-                        "startLine": 22,
-                        "startColumn": 2,
-                        "startOffset": 539,
-                        "endLine": 28,
-                        "endColumn": 17,
-                        "endOffset": 749
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\arrays.xml"
                 }
             },
             {
@@ -33,15 +25,7 @@
                     "endOffset": 526
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/arrays.xml",
-                    "position": {
-                        "startLine": 1,
-                        "startColumn": 2,
-                        "startOffset": 14,
-                        "endLine": 7,
-                        "endColumn": 17,
-                        "endOffset": 220
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\arrays.xml"
                 }
             },
             {
@@ -54,15 +38,7 @@
                     "endOffset": 685
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/arrays.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 2,
-                        "startOffset": 223,
-                        "endLine": 14,
-                        "endColumn": 18,
-                        "endOffset": 377
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\arrays.xml"
                 }
             },
             {
@@ -75,15 +51,7 @@
                     "endOffset": 846
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/arrays.xml",
-                    "position": {
-                        "startLine": 15,
-                        "startColumn": 2,
-                        "startOffset": 380,
-                        "endLine": 21,
-                        "endColumn": 17,
-                        "endOffset": 536
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\arrays.xml"
                 }
             },
             {
@@ -95,14 +63,7 @@
                     "endOffset": 1161
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 88,
-                        "endColumn": 57,
-                        "endOffset": 141
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\dimens.xml"
                 }
             },
             {
@@ -114,14 +75,7 @@
                     "endOffset": 1217
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/dimens.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 146,
-                        "endColumn": 55,
-                        "endOffset": 197
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\dimens.xml"
                 }
             },
             {
@@ -133,14 +87,7 @@
                     "endOffset": 1270
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.8.0/res/values/values.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 0,
-                        "startOffset": 162,
-                        "endColumn": 48,
-                        "endOffset": 210
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\exploded-aar\\com.google.firebase\\firebase-crash\\9.8.0\\res\\values\\values.xml"
                 }
             },
             {
@@ -152,14 +99,7 @@
                     "endOffset": 1337
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/res/values/values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 0,
-                        "startOffset": 276,
-                        "endColumn": 62,
-                        "endOffset": 338
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.8.0\\res\\values\\values.xml"
                 }
             },
             {
@@ -171,14 +111,7 @@
                     "endOffset": 1455
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 91,
-                        "startColumn": 4,
-                        "startOffset": 5273,
-                        "endColumn": 117,
-                        "endOffset": 5386
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -191,7 +124,7 @@
                     "endOffset": 2463
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml",
                     "position": {
                         "startLine": 94,
                         "startColumn": 4,
@@ -211,14 +144,7 @@
                     "endOffset": 2511
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 108,
-                        "endColumn": 47,
-                        "endOffset": 151
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -230,14 +156,7 @@
                     "endOffset": 2678
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.8.0/res/values/values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 0,
-                        "startOffset": 438,
-                        "endColumn": 166,
-                        "endOffset": 604
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.8.0\\res\\values\\values.xml"
                 }
             },
             {
@@ -249,14 +168,7 @@
                     "endOffset": 2737
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 90,
-                        "startColumn": 4,
-                        "startOffset": 5214,
-                        "endColumn": 58,
-                        "endOffset": 5268
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -268,14 +180,7 @@
                     "endOffset": 2880
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/generated/res/google-services/debug/values/values.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 142,
-                        "endOffset": 193
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
                 }
             },
             {
@@ -287,14 +192,7 @@
                     "endOffset": 2987
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/generated/res/google-services/debug/values/values.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 198,
-                        "endColumn": 106,
-                        "endOffset": 300
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
                 }
             },
             {
@@ -306,14 +204,7 @@
                     "endOffset": 3068
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/generated/res/google-services/debug/values/values.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 305,
-                        "endColumn": 80,
-                        "endOffset": 381
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
                 }
             },
             {
@@ -325,14 +216,7 @@
                     "endOffset": 3172
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/generated/res/google-services/debug/values/values.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 386,
-                        "endColumn": 103,
-                        "endOffset": 485
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
                 }
             },
             {
@@ -344,14 +228,7 @@
                     "endOffset": 3274
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/generated/res/google-services/debug/values/values.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 490,
-                        "endColumn": 101,
-                        "endOffset": 587
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
                 }
             },
             {
@@ -363,14 +240,7 @@
                     "endOffset": 3394
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/generated/res/google-services/debug/values/values.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 592,
-                        "endColumn": 119,
-                        "endOffset": 707
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
                 }
             },
             {
@@ -382,14 +252,7 @@
                     "endOffset": 3490
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/generated/res/google-services/debug/values/values.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 712,
-                        "endColumn": 95,
-                        "endOffset": 803
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
                 }
             },
             {
@@ -401,14 +264,7 @@
                     "endOffset": 3610
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 36,
-                        "startColumn": 4,
-                        "startOffset": 2667,
-                        "endColumn": 119,
-                        "endOffset": 2782
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -421,15 +277,7 @@
                     "endOffset": 5865
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 37,
-                        "startColumn": 4,
-                        "startOffset": 2787,
-                        "endLine": 85,
-                        "endColumn": 13,
-                        "endOffset": 5037
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -441,14 +289,7 @@
                     "endOffset": 5984
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 263,
-                        "endColumn": 118,
-                        "endOffset": 377
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -460,14 +301,7 @@
                     "endOffset": 6057
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/build/generated/res/google-services/debug/values/values.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 808,
-                        "endColumn": 72,
-                        "endOffset": 876
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
                 }
             },
             {
@@ -479,14 +313,7 @@
                     "endOffset": 6164
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 156,
-                        "endColumn": 106,
-                        "endOffset": 258
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -498,14 +325,7 @@
                     "endOffset": 6521
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 7,
-                        "startColumn": 4,
-                        "startOffset": 737,
-                        "endColumn": 356,
-                        "endOffset": 1089
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -517,14 +337,7 @@
                     "endOffset": 6876
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 382,
-                        "endColumn": 354,
-                        "endOffset": 732
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -537,15 +350,7 @@
                     "endOffset": 8210
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 9,
-                        "startColumn": 4,
-                        "startOffset": 1333,
-                        "endLine": 35,
-                        "endColumn": 17,
-                        "endOffset": 2662
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -557,14 +362,7 @@
                     "endOffset": 8449
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 8,
-                        "startColumn": 4,
-                        "startOffset": 1094,
-                        "endColumn": 238,
-                        "endOffset": 1328
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -576,14 +374,7 @@
                     "endOffset": 8524
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 88,
-                        "startColumn": 4,
-                        "startOffset": 5044,
-                        "endColumn": 74,
-                        "endOffset": 5114
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -595,14 +386,7 @@
                     "endOffset": 8619
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 89,
-                        "startColumn": 4,
-                        "startOffset": 5119,
-                        "endColumn": 94,
-                        "endOffset": 5209
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -614,14 +398,7 @@
                     "endOffset": 8672
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 52,
-                        "endOffset": 103
-                    }
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -633,430 +410,7 @@
                     "endOffset": 8729
                 },
                 "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/res/values/strings.xml",
-                    "position": {
-                        "startLine": 92,
-                        "startColumn": 4,
-                        "startOffset": 5391,
-                        "endColumn": 56,
-                        "endOffset": 5443
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 105,
-                    "endLine": 8,
-                    "endColumn": 17,
-                    "endOffset": 315
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\arrays.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 9,
-                    "startColumn": 4,
-                    "startOffset": 320,
-                    "endLine": 15,
-                    "endColumn": 17,
-                    "endOffset": 526
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\arrays.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 16,
-                    "startColumn": 4,
-                    "startOffset": 531,
-                    "endLine": 22,
-                    "endColumn": 18,
-                    "endOffset": 685
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\arrays.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 23,
-                    "startColumn": 4,
-                    "startOffset": 690,
-                    "endLine": 29,
-                    "endColumn": 17,
-                    "endOffset": 846
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\arrays.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 31,
-                    "startColumn": 4,
-                    "startOffset": 1108,
-                    "endColumn": 57,
-                    "endOffset": 1161
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\dimens.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 32,
-                    "startColumn": 4,
-                    "startOffset": 1166,
-                    "endColumn": 55,
-                    "endOffset": 1217
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\dimens.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 33,
-                    "startColumn": 4,
-                    "startOffset": 1222,
-                    "endColumn": 52,
-                    "endOffset": 1270
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\exploded-aar\\com.google.firebase\\firebase-crash\\9.8.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 34,
-                    "startColumn": 4,
-                    "startOffset": 1275,
-                    "endColumn": 66,
-                    "endOffset": 1337
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.8.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 35,
-                    "startColumn": 4,
-                    "startOffset": 1342,
-                    "endColumn": 117,
-                    "endOffset": 1455
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 36,
-                    "startColumn": 4,
-                    "startOffset": 1460,
-                    "endLine": 59,
-                    "endColumn": 13,
-                    "endOffset": 2463
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml",
-                    "position": {
-                        "startLine": 94,
-                        "startColumn": 4,
-                        "startOffset": 5449,
-                        "endLine": 117,
-                        "endColumn": 13,
-                        "endOffset": 6452
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 60,
-                    "startColumn": 4,
-                    "startOffset": 2468,
-                    "endColumn": 47,
-                    "endOffset": 2511
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 61,
-                    "startColumn": 4,
-                    "startOffset": 2516,
-                    "endColumn": 166,
-                    "endOffset": 2678
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\9.8.0\\res\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 62,
-                    "startColumn": 4,
-                    "startOffset": 2683,
-                    "endColumn": 58,
-                    "endOffset": 2737
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 63,
-                    "startColumn": 4,
-                    "startOffset": 2742,
-                    "endColumn": 142,
-                    "endOffset": 2880
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 64,
-                    "startColumn": 4,
-                    "startOffset": 2885,
-                    "endColumn": 106,
-                    "endOffset": 2987
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 65,
-                    "startColumn": 4,
-                    "startOffset": 2992,
-                    "endColumn": 80,
-                    "endOffset": 3068
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 66,
-                    "startColumn": 4,
-                    "startOffset": 3073,
-                    "endColumn": 103,
-                    "endOffset": 3172
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 67,
-                    "startColumn": 4,
-                    "startOffset": 3177,
-                    "endColumn": 101,
-                    "endOffset": 3274
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 68,
-                    "startColumn": 4,
-                    "startOffset": 3279,
-                    "endColumn": 119,
-                    "endOffset": 3394
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 69,
-                    "startColumn": 4,
-                    "startOffset": 3399,
-                    "endColumn": 95,
-                    "endOffset": 3490
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 70,
-                    "startColumn": 4,
-                    "startOffset": 3495,
-                    "endColumn": 119,
-                    "endOffset": 3610
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 71,
-                    "startColumn": 4,
-                    "startOffset": 3615,
-                    "endLine": 119,
-                    "endColumn": 13,
-                    "endOffset": 5865
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 120,
-                    "startColumn": 4,
-                    "startOffset": 5870,
-                    "endColumn": 118,
-                    "endOffset": 5984
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 121,
-                    "startColumn": 4,
-                    "startOffset": 5989,
-                    "endColumn": 72,
-                    "endOffset": 6057
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\build\\generated\\res\\google-services\\debug\\values\\values.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 122,
-                    "startColumn": 4,
-                    "startOffset": 6062,
-                    "endColumn": 106,
-                    "endOffset": 6164
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 123,
-                    "startColumn": 4,
-                    "startOffset": 6169,
-                    "endColumn": 356,
-                    "endOffset": 6521
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 124,
-                    "startColumn": 4,
-                    "startOffset": 6526,
-                    "endColumn": 354,
-                    "endOffset": 6876
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 125,
-                    "startColumn": 4,
-                    "startOffset": 6881,
-                    "endLine": 151,
-                    "endColumn": 17,
-                    "endOffset": 8210
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 152,
-                    "startColumn": 4,
-                    "startOffset": 8215,
-                    "endColumn": 238,
-                    "endOffset": 8449
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 153,
-                    "startColumn": 4,
-                    "startOffset": 8454,
-                    "endColumn": 74,
-                    "endOffset": 8524
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 154,
-                    "startColumn": 4,
-                    "startOffset": 8529,
-                    "endColumn": 94,
-                    "endOffset": 8619
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 155,
-                    "startColumn": 4,
-                    "startOffset": 8624,
-                    "endColumn": 52,
-                    "endOffset": 8672
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
-                }
-            },
-            {
-                "to": {
-                    "startLine": 156,
-                    "startColumn": 4,
-                    "startOffset": 8677,
-                    "endColumn": 56,
-                    "endOffset": 8729
-                },
-                "from": {
-                    "file": "/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\res\\values\\strings.xml"
                 }
             }
         ]

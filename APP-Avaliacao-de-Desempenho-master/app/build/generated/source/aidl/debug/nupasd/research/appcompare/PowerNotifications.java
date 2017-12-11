@@ -1,6 +1,6 @@
 /*
  * This file is auto-generated.  DO NOT MODIFY.
- * Original file: /home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/aidl/nupasd/research/appcompare/PowerNotifications.aidl
+ * Original file: D:\\Arquivos_Programacao\\new2\\TESTES_ALTERACAO_PACOTE\\APP-Avaliacao-de-Desempenho-master\\app\\src\\main\\aidl\\nupasd\\research\\appcompare\\PowerNotifications.aidl
  */
 package nupasd.research.appcompare;
 public interface PowerNotifications extends android.os.IInterface

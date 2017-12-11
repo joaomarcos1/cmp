@@ -463,10 +463,7 @@ public class escolha_apps extends Activity{
         voltar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //finish();
-                Intent it = new Intent(view.getContext(), UMLogger.class);
-                startActivity(it);
-
+                finish();
             }
         });
 

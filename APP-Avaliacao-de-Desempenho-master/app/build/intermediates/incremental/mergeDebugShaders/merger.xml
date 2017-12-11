@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/home/virtex02/Documentos/Joao/APP-Avaliacao-de-Desempenho-master/app/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="D:\Arquivos_Programacao\new2\TESTES_ALTERACAO_PACOTE\APP-Avaliacao-de-Desempenho-master\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="D:\Arquivos_Programacao\new2\TESTES_ALTERACAO_PACOTE\APP-Avaliacao-de-Desempenho-master\app\src\debug\shaders"/></dataSet></merger>

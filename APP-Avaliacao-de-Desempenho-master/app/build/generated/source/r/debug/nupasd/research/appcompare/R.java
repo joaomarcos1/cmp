@@ -96,6 +96,7 @@ containing a value of this type.
         public static final int x=0x7f020027;
     }
     public static final class id {
+        public static final int appviewerbutton=0x7f080052;
         public static final int btn_CONFIRMAR_Tela_Parametros_Avancados=0x7f080014;
         public static final int btn_Salvar_Graficos_TesteT=0x7f080026;
         public static final int btn_Salvar_Relatorios__TesteT=0x7f080027;
@@ -104,13 +105,13 @@ containing a value of this type.
         public static final int btn_Voltar_Tela_TesteT=0x7f080050;
         public static final int btn_confirmar=0x7f080020;
         public static final int btn_confirmarParametros=0x7f080010;
-        public static final int btn_encerrar_Aplicacao=0x7f080053;
+        public static final int btn_encerrar_Aplicacao=0x7f080054;
         public static final int btn_graficos_resultados=0x7f080042;
         public static final int btn_voltar_logs_apps=0x7f08001e;
         public static final int btn_voltar_preferencias_execucao_Teste=0x7f08002c;
         public static final int btn_voltar_tela_graficos=0x7f080024;
         public static final int btn_voltar_teste_01_app=0x7f080037;
-        public static final int cancel_button=0x7f08005b;
+        public static final int cancel_button=0x7f08005c;
         public static final int chart=0x7f080022;
         public static final int chart2=0x7f080023;
         public static final int chart3=0x7f080025;
@@ -128,13 +129,12 @@ containing a value of this type.
         public static final int edt_Quantidade_Observacoes_Parametros_Avaliacao=0x7f08001b;
         public static final int edt_busca_APPS=0x7f08001f;
         public static final int expandableListView=0x7f080016;
-        public static final int help=0x7f080052;
         public static final int imageView=0x7f080028;
         public static final int linha_separacao01=0x7f080043;
         public static final int linha_separacao02=0x7f08004c;
-        public static final int list=0x7f080059;
+        public static final int list=0x7f08005a;
         public static final int listView_Aplicativos_Instalados=0x7f08001d;
-        public static final int power_button=0x7f08005c;
+        public static final int power_button=0x7f08005d;
         public static final int radioButton_ADVANCED_Trust_Level_95=0x7f080011;
         public static final int radioButton_ADVANCED_Trust_Level_99=0x7f080013;
         public static final int radioButton_Nivel_Confianca_95=0x7f080019;
@@ -142,9 +142,10 @@ containing a value of this type.
         public static final int radioGroup_ADVANCED_TRUST_LEVEL=0x7f08000f;
         public static final int radioGroup_Elements_To_Check=0x7f080008;
         public static final int radioGroup_Nivel_Confianca=0x7f08000e;
-        public static final int save_button=0x7f08005a;
+        public static final int save_button=0x7f08005b;
         public static final int servicestartbutton=0x7f080051;
-        public static final int summary=0x7f080055;
+        public static final int summary=0x7f080056;
+        public static final int sysviewerbutton=0x7f080053;
         public static final int textView=0x7f080021;
         public static final int textView10=0x7f080047;
         public static final int textView11=0x7f080048;
@@ -166,12 +167,12 @@ containing a value of this type.
         public static final int textView7=0x7f08003f;
         public static final int textView8=0x7f08002f;
         public static final int textView9=0x7f08003d;
-        public static final int textView_row_author=0x7f080057;
-        public static final int textView_row_message=0x7f080058;
-        public static final int text_day=0x7f08005f;
-        public static final int text_hour=0x7f08005e;
-        public static final int text_minute=0x7f08005d;
-        public static final int title=0x7f080054;
+        public static final int textView_row_author=0x7f080058;
+        public static final int textView_row_message=0x7f080059;
+        public static final int text_day=0x7f080060;
+        public static final int text_hour=0x7f08005f;
+        public static final int text_minute=0x7f08005e;
+        public static final int title=0x7f080055;
         public static final int txt_CHOOSE_TRUST_LEVEL=0x7f08001c;
         public static final int txt_Consumo_Total_APP_Teste_01_APP=0x7f080030;
         public static final int txt_Consumo_Total_Aplicativo_01_TESTE02=0x7f08003b;
@@ -191,7 +192,7 @@ containing a value of this type.
         public static final int txt_media_teste_01_APP=0x7f080031;
         public static final int txt_resultadoTesteT=0x7f08004f;
         public static final int variancia_teste_01_APP=0x7f080033;
-        public static final int widget_frame=0x7f080056;
+        public static final int widget_frame=0x7f080057;
     }
     public static final class integer {
         public static final int google_play_services_version=0x7f090000;

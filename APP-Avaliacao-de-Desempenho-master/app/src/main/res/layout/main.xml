@@ -40,17 +40,17 @@
             android:typeface="normal" />
 
         <Button
-            android:id="@+id/help"
+            android:id="@+id/appviewerbutton"
             android:layout_width="300dp"
             android:layout_height="100dp"
             android:layout_gravity="center_horizontal"
             android:background="@drawable/button_blue"
             android:drawableRight="@drawable/iconbut"
-            android:text="Help"
+            android:text="Perform Test"
             android:textSize="10pt"
             android:typeface="normal" />
 
-        <!--<Button
+        <Button
             android:id="@+id/sysviewerbutton"
             android:layout_width="300dp"
             android:layout_height="100dp"
@@ -59,7 +59,7 @@
             android:drawableRight="@drawable/iconbutabout"
             android:text="System Information"
             android:textSize="10pt"
-            android:typeface="normal" />-->
+            android:typeface="normal" />
 
         <!--<Button
             androidlayout_width="301dp"

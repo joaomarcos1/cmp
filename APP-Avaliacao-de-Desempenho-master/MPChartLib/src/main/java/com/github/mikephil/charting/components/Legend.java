@@ -943,88 +943,32 @@ public class Legend extends ComponentBase {
                 for (int i = 0; i < entryCount; i++) {
 
                     LegendEntry e = entries[i];
-                    boolean drawingForm = e.form != LegendForm.NONE;
-                    float formSize = Float.isNaN(e.formSize)
-                            ? defaultFormSize
-                            : Utils.convertDpToPixel(e.formSize);
-                    String label = e.label;
-
-                    mCalculatedLabelBreakPoints.add(false);
-
-                    if (stackedStartIndex == -1) {
-                        // we are not stacking, so required width is for this label
-                        // only
-                        requiredWidth = 0.f;
-                    } else {
-                        // add the spacing appropriate for stacked labels/forms
-                        requiredWidth += stackSpace;
-                    }
-
-                    // grouped forms have null labels
-                    if (label != null) {
-
-                        mCalculatedLabelSizes.add(Utils.calcTextSize(labelpaint, label));
-                        requiredWidth += drawingForm ? formToTextSpace + formSize : 0.f;
-                        requiredWidth += mCalculatedLabelSizes.get(i).width;
-                    } else {
-
-                        mCalculatedLabelSizes.add(FSize.getInstance(0.f, 0.f));
-                        requiredWidth += drawingForm ? formSize : 0.f;
-
-                        if (stackedStartIndex == -1) {
-                            // mark this index as we might want to break here later
-                            stackedStartIndex = i;
-                        }
-                    }
-
-                    if (label != null || i == entryCount - 1) {
-
-                        float requiredSpacing = currentLineWidth == 0.f ? 0.f : xEntrySpace;
-
-                        if (!wordWrapEnabled // No word wrapping, it must fit.
-                                // The line is empty, it must fit
-                                || currentLineWidth == 0.f
-                                // It simply fits
-                                || (contentWidth - currentLineWidth >=
-                                requiredSpacing + requiredWidth)) {
-                            // Expand current line
-                            currentLineWidth += requiredSpacing + requiredWidth;
-                        } else { // It doesn't fit, we need to wrap a line
-
-                            // Add current line size to array
-                            mCalculatedLineSizes.add(FSize.getInstance(currentLineWidth, labelLineHeight));
-                            maxLineWidth = Math.max(maxLineWidth, currentLineWidth);
-
-                            // Start a new line
-                            mCalculatedLabelBreakPoints.set(
-                                    stackedStartIndex > -1 ? stackedStartIndex
-                                            : i, true);
-                            currentLineWidth = requiredWidth;
-                        }
-
-                        if (i == entryCount - 1) {
-                            // Add last line size to array
-                            mCalculatedLineSizes.add(FSize.getInstance(currentLineWidth, labelLineHeight));
-                            maxLineWidth = Math.max(maxLineWidth, currentLineWidth);
-                        }
-                    }
-
-                    stackedStartIndex = label != null ? -1 : stackedStartIndex;
-                }
-
-                mNeededWidth = maxLineWidth;
-                mNeededHeight = labelLineHeight
-                        * (float) (mCalculatedLineSizes.size())
-                        + labelLineSpacing *
-                        (float) (mCalculatedLineSizes.size() == 0
-                                ? 0
-                                : (mCalculatedLineSizes.size() - 1));
-
-                break;
-            }
-        }
-
-        mNeededHeight += mYOffset;
-        mNeededWidth += mXOffset;
-    }
-}
+                 "  b/”le	 dèawi§Foq =a.fs%m Ç¼ Lc¿enÝVor­ÌNOžî;
+ge  (j  r´       Moa+Åfo-÷SiØ =‡äloQJ.iaNÊ .fWmS²®e)Þ  ’  w  úí  ‚Ž  š  E  ™á d©±auò›Fo!NSif°
+ ÆR  &  Ô«  #   fo  ýd   :‘dtiR.cˆ&ve¸DpÆPi‡úl(»Mfol×SiŸŒ);¦’  Ôë  ×  ¥  =l  ¶;trìúg ÁPbeZ·= 
+lay!l;òC  u®  Ò  1ø    n~mC]ûcuÂÇte&'ab¸"Br;kP7ÅntF%adUTfaÕe)Œ!
+ Oí  ØÚ  r¿  Xƒ  š„ iXÓ(sr\ck.ÌStŠËtIÎcex= 1) (  çé  QÚ  %Ÿ  “  ±÷  ´f//1e òÕe hõt æCacw7ng:
+so	½eq¡*re[§wi”Fh `x fñ˜ t s ébeý¹  ¡¼  ¬û  U'  Ú^  ˆ  É//8¹nl#  ?’$ L¥ ¨“ ¤¦Q  ”(  	°eq-Hreç_idz =#3.f%È  ”ì  >Ô  VW  Ì&  îæ} ersekó
+ ´  "  ó  M©  Å^  ÷w /ØnadäÔthJ¿spïin apWŠop®iatÞkfo’†stwákeíÚlaŽŠlsxorã á2  ±@  ›¨  Nô  °m  R| r—ui«®dW &thoã= dacþpad;
+R  &Ÿ  ‰  Ï  úí  M;
+ ×Ç  Œ~  ’Á  ëÕ  ×– /grm~pe;Ñfoúßs Pàve·éul
+àla!šlsC‚  ®+  ê  ø)  q  ~Ðf ûabÇ( !'nu"÷) ;¬
+ ÅW  %™  T›  È  !  í£ mÚêlc¿)atƒÐLa„ûlSÓ%es\qddÌtiË\.cc}cTYtS1ƒe((beéáaiÚT, Ÿ¥be);÷«  f‰  1Ž  Õ²  õP  Cä  7!eq
+ re½.id*O +§ddrFinxÅor˜«? 7rm–Te¹	Sp¼¹e û~fo'ÓSi^8 2ˆü,fÙ]$(¹ï   !’ä  ¥  “Í ¦Q v+”vp	dWh,th+= }al+slas%dLç”elc¯zeÝVge¡Èi)žîidee;
+(c  p´       -  +Åel-÷ {Ø  ‡ä  QJ    Ê   W  ²®mCÞcu’tewabúíSi‚Žs.šd(Eiz™áge©Inúòanª!(0¨f, WÆf)Í&
+ õô   #  #f  íü  :  Ô‘ r…ui\ˆdW<¸thîÆ= þ‡awH»gFälm ·Ÿfo¦SiÔ :*.f]¥
+ q=  ž¶  ì  =Á  â[  ° iy(sZòckáuStiÒtIk1exl= mn) ]  ÜÂ  m&  ¸  x  Æ7  $F  zU//6ÕarÖŒth]O iiØexzs ,X mšht)XancrtoÈ.re Š hbÎe áte³  i  ç  NQ  &%  h“  j±  $´st’keüòtahhInWæx Iwi;‹:  	  b¡  ¯[  †–  4`  ñ
+ ”   Oé  Íý  ‘¡  ®¬ }ÛU  aÚ    Ö  8  t#iæö?ì`‚Ll  n®¦a w+ºð- gè4xOu
+y -º?)$»S
+ (Æ  Kc  "Ø  U   yž  g f(at\reqxre‚pae ngƒ+ cê-re·Li´‡WiÙQh a 0Ê ?ß.Š: m ntkoSp†(e;á]  Ú'  Š  x/  ãú  2•  @úif¨ª!wô¨dWmWpE|Íbl—õ /® No&#orãíwr:piþÔ, … m\t ß<t.‰î  Ïþ  í  »ä  Ç·  ~  Á  Ñ*  ]/ qe ~žneÑs ß=ptàâ ié°muà fšZ
+ ‚á  +i  êk  )l  qm  P  Ü  (  ' c"÷re;¬LiÅWWi%™h T› 0È
+ !  í£  Úê  ¿)  ƒÐ  „û  Ó%  \q /ÌItË\imc}y Yts1ƒ  (  éá  ÚT  Ÿ¥    ÷«  f‰  1Ž| Õ²onõPntCädt7!-  rr½.tL*OeW§dthF=
+xÁ  ˜«  7  –  ¹	  ¼¹  û~  'Ó  ^8quˆüedÉ]as¹ïg re’äir¥Wi“Í.-Q,{+”ºà	cè-X £;€y  -#  c%  Å„/ AüpaÝf cõÌrežn lgme
+(j  r´       M  +Å  -÷  Ørr‡ätLQJeWthÊ = Wqu²®eeÞac‚g wreúíir‚ŽWišh;E(  ™á  ©±  ò›  !N  f°  ÆR e&e Ô«//# t foesüdt t,‘de Redˆ&o ¸apÆ l‡úe
+»M  l×  ŸŒ  ¦’  Ôë  ×  ¥  =l/ ¶;d ìúrrÁPt [·ne
+izy!toòCrru®
+ ÒŒ  1ø    n~  ]û  ÂÇ  &' m¸"lc;at7ÅLiF%SiUTs.Õd(Œ!izOígeØÚnsz¿ncXƒcuš„enXÓinr\id.Ì, ŠËbeÎLiáHe³hti;
+ç  NQ  &%  h“  j±  $´  ’  üòxLhheWWæthIw M‹:h.	x(b¡xL¯[eW†–th4`cuñen” inOéidÏý);‘£  ®¬  ÛU  aÚ  œ  Ö  8  t#//ö?t`‚L a>åwÿÿÇŸÿÿKÿÿÿöÏÿÿó¿ÿÿïÿÿßÁÿÿÿüÿÿúÿ›Pÿÿ#^ÿ_ÝÅæúR;ûÿSc¿ÿñý¿ÿúxÿÿ8‡ÿÿóýÿþÉ,ÿÿ’ÿÿô¿ÿò(ÿÿÝÿÿX;ÿÿŽ•ÿÿÚÌÿÿßÿÿ˜Ëÿÿ)ÿÿ†Uÿÿ„ÿÿÖ¨ÿÿ%-ÿÿ	ÿÿ äÿÿÛ…ÿÿzÿÿ\nÿ-Dÿÿþ‘ÿÿ¹oÿÿÿÿùÆÿÿtÿÿüßÿÿ¹°ÿþ#»ÿÿÎÆÿÿN¡ÿÿÑÿÿ¼ÿÿMPÿÿÈÿÿX%ÿÿd’ÿÿ³ÿÿ@SÿÿyMÿÿwÿÿ“Mÿÿ›ÿÿ•úÿÿ!äÿÿa`ÿÿWÝÿÿó!ÿÿˆÎÿÿ¦þÿÿ-œÿÿªqÿÿRÿÿî'ÿÿÐ ÿÿ›‹ÿÿ‚$ÿÿÿÿùøÿÿgýÿÿÄäÿÿèÿÿ™òÿÿ—–ÿÿD—ÿÿ0±ÿÿÄ2ÿÿÿÿ`ÿÿ‡\ÿÿE[ÿÿ‡ÿÿ­ƒÿÿñÿUÿÿ³ÿÿ¿“ÿÿŒ¯ÿÿÊ»ÿÿ}6ÿÿÔ@ÿÿµ@ÿÿ“ÿÿn(ÿÿk¹ÿÿRîÿÿ-
+ÿÿ·*ÿÿ9œÿÿ¨èÿÿ¨¶ÿÿ•7ÿÿ*°ÿÿÍ6ÿÿ Ãÿÿ±æÿÿ&!ÿÿ¥‹ÿÿs–ÿÿq2ÿÿ=&ÿÿ&vÿÿÄ¬ÿÿKÄÿÿŠÿÿÀÿÿ ¢ÿÿâ²ÿÿl©ÿÿ	šÿÿèÁÿÿñÿÿóøÿÿçoÿÿÿÿÿ÷ÿÿÿå}ÿÿûýÿÿýýÿÿÿÇÿÿgØý€÷ßÈŒ;^!®<ýi£ýüÈ±ÿÿxËÿïòÿÿ¸ÿÿeôÿÿ?ûÿˆ.ÿ¨hß÷±kßÿ¿ÿ`¾ÿÿ0^ÿÿÍ ÿÿÐÿ²×ßá´°ÿÿY÷ÿÿ>‚ýÿ¥ÿUÚÿÿ§ðÿÿ<%ÿÿíJÿÿŸ%ÿÿ$!ÿÿ`2ÿÿæÉÿÿÊ\ÿÿ*ÿÿ=žÿÿµüÿÿ<|ÿÿåÿÿ,ÿÿÄ	ÿÿ†Èÿÿ3·ÿÿXÿÿUyÿÿ2—ÿÿd;ÿÿhÿÿ¡ÅÿÿCîÿÿ
+õÿÿI‚ÿÿÎ®ÿÿ¡Aÿÿ`‘ÿÿE¦ÿÿ{iÿÿ+oÿ”gÿÿ° ÿÿØ	ÿÿ[ôÿÿR5ÿÿ'öÿÿ ®ÿÿ¡Bÿÿašÿÿp²ÿÿ°’ÿÿýdÿ†¡ÿÿ¡TÿÿÜ³ÿÿÞ¡ÿÿ
+ÃÿÿSþÿÿ2ÿÿÿÿ¥`ÿÿ‡\ÿÿMÿÿÆXÿÿ¥Îÿÿ½Pÿÿ@ÿÿ}õÿÿ­žÿÿ“àÿÿ²ÿÿ1ÿÿŽÿÿú@ÿÿLÒÿýn(ÿÿk¹ÿÿRîÿÿaKÿÿûFÿÿ|ïÿÿë¡ÿÿåßÿÿÖbÿÿ~õÿÿ„xÿÿI™ÿÿ¿§ÿÿ.Gÿÿ¹‚ÿÿbËÿÿoÿÿ=6ÿÿ'aÿÿÃÿÿÍLÿÿÀÿÿSÿÿ‹Bÿÿ0»ÿÿÇ)ÿÿ;]ÿÿPBßÿÿÿÿÿöKÿÿþöÿÿwòÿÿÜsÿÿþòÿÿÿÿÿÿýúÿÿ½ïÿÿ¼`ÿ‰¿ß~ÿA1ÿß¸ ÿßº×ïÏî>Îö•œ¿ÿ‡‡ÿÿ†ÈÿßúIÿï· ÿÿÐïçQ ÿÿŽ•ÿÿÚÌÿÿßÿÿÙˆÿý/#ÿÿŸÿÿÀMÿÿÈ¨ÿÿ%2ÿÿwQÿÿE ÿÿšŠÿÿF>ÿÿvnÿÿ`*ÿÿºÔÿÿü&ÿÿMÿÿù‹ÿÿM2ÿÿ¨Äÿÿ¹°ÿÿ#»ÿÿ ƒÿÿÿÿÿ™Ùÿÿ\äÿÿ?ÿÿJÿþr%ÿÿdÏÿÿ™

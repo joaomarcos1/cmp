@@ -76,8 +76,8 @@ public class UMLogger extends Activity {
 
   private Button serviceStartButton;
   private Button appViewerButton;
-  //private Button sysViewerButton; CASO FOR UTILIZAR A FUNÇÃO DE VISUALIZAÇÃO DE FUNÇÕES ENERGÉTICA DESCOMENTAR
-  private Button helpButton;
+  private Button sysViewerButton;
+  //private Button helpButton;
   private TextView scaleText;
 
   private Button encerrar;
@@ -104,8 +104,6 @@ public class UMLogger extends Activity {
         startActivity(it);
       }
     });*/
-
-
 
 
     encerrar = (Button) findViewById(R.id.btn_encerrar_Aplicacao);
@@ -136,34 +134,31 @@ public class UMLogger extends Activity {
     adapterxaxis.setDropDownViewResource(
             android.R.layout.simple_spinner_dropdown_item);
 
-
-    helpButton = (Button) findViewById(R.id.help);
-
     serviceStartButton = (Button) findViewById(R.id.servicestartbutton);
 
     //Botão Iniciar Teste comentado abaixo, método para abertura de tela de APPS no fim da classe
-    //appViewerButton = (Button) findViewById(R.id.appviewerbutton);
+    appViewerButton = (Button) findViewById(R.id.appviewerbutton);
 
 
-    //sysViewerButton = (Button) findViewById(R.id.sysviewerbutton);
+    sysViewerButton = (Button) findViewById(R.id.sysviewerbutton);
     //helpButton= (Button)findViewById(R.id.helpbutton);
 
     serviceStartButton.setOnClickListener(serviceStartButtonListener);
-    //sysViewerButton.setOnClickListener(sysViewerButtonListener); COMENTADO PARA FUNÇÃO DE CONSUMO ENERGÉTICO NÃO APARECER
+    sysViewerButton.setOnClickListener(sysViewerButtonListener);
 
     //Botão Iniciar Teste comentado abaixo, método para abertura de tela de APPS no fim da classe
-    //appViewerButton.setOnClickListener(appViewerButtonListener);
+    appViewerButton.setOnClickListener(appViewerButtonListener);
 
-    helpButton.setOnClickListener(helpButtonListener);
+    //helpButton.setOnClickListener(helpButtonListener);
 
     if (counterService != null) {
       serviceStartButton.setText("STOP SERVICE");
-      //appViewerButton.setEnabled(true);
-      //sysViewerButton.setEnabled(true); FUNÇÃO VISULIZAÇÃO DE SISTEMA OCULTA
+      appViewerButton.setEnabled(true);
+      sysViewerButton.setEnabled(true);
     } else {
       serviceStartButton.setText("START SERVICE");
-      //appViewerButton.setEnabled(false);
-      //sysViewerButton.setEnabled(false); FUNÇÃO VISULIZAÇÃO DE SISTEMA OCULTA
+      appViewerButton.setEnabled(false);
+      sysViewerButton.setEnabled(false);
     }
   }
 
@@ -404,7 +399,7 @@ public class UMLogger extends Activity {
     return null;
   }
 
-  /*
+
   private Button.OnClickListener appViewerButtonListener =
           new Button.OnClickListener() {
             public void onClick(View v) {
@@ -414,22 +409,11 @@ public class UMLogger extends Activity {
             }
           };
 
-
   private Button.OnClickListener sysViewerButtonListener =
           new Button.OnClickListener() {
             public void onClick(View v) {
               Intent intent = new Intent(v.getContext(), PowerTabs.class);
               startActivityForResult(intent, 0);
-            }
-          };
-*/
-
-  private Button.OnClickListener helpButtonListener =
-          new Button.OnClickListener(){
-            @Override
-            public void onClick(View view) {
-              Intent help = new Intent(view.getContext(), help.class);
-              startActivity(help);
             }
           };
 
@@ -454,10 +438,6 @@ public class UMLogger extends Activity {
 
                   startService(serviceIntent);
 
-                  //ABAIXO PARA INICIAR O TESTE ASSIM QUE ESCOLHER INICIAR SERVIÇO
-                  Intent intent = new Intent(v.getContext(), escolha_apps.class);
-                  startActivityForResult(intent, 0);
-
                   //Intent intent = new Intent(v.getContext(), escolha_apps.class);
                  // startActivityForResult(intent, 0);
                 }
@@ -474,7 +454,7 @@ public class UMLogger extends Activity {
       serviceStartButton.setText("STOP SERVICE");
       serviceStartButton.setEnabled(true);
       appViewerButton.setEnabled(true);
-      //sysViewerButton.setEnabled(true); FUNÇÃO VISULIZAÇÃO DE SISTEMA OCULTA
+      sysViewerButton.setEnabled(true);
     }
 
     public void onServiceDisconnected(ComponentName className) {
@@ -487,7 +467,7 @@ public class UMLogger extends Activity {
       serviceStartButton.setText("START SERVICE");
       serviceStartButton.setEnabled(true);
       appViewerButton.setEnabled(false);
-      //sysViewerButton.setEnabled(false); FUNÇÃO VISULIZAÇÃO DE SISTEMA OCULTA
+      sysViewerButton.setEnabled(false);
     }
   }
    
